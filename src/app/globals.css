@@ -1,0 +1,20 @@
+@tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+  
+  .contactData{
+    @apply max-w-[500px] flex items-start space-x-2
+  }
+  
+  .customTags{
+     @apply py-3 px-4  text-xl text-white bg-white bg-opacity-10 w-fit rounded-lg
+  }
+  .complianceTags{
+    @apply py-3 px-4  text-2xl text-white bg-white bg-opacity-[10%] w-fit rounded-lg text-nowrap flex space-x-2
+  }
+  .nav-link{
+   @apply relative after:transition-all after:duration-150 after:absolute hover:after:w-1/2 after:w-0 after:h-0.5 after:top-full after:left-0 after:bg-secondryColor
+  }
+  html{
+    scroll-behavior: smooth;
+  }

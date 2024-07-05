@@ -1,0 +1,12 @@
+input,textarea{
+    border:none;
+    border-bottom: 1px solid #1890ff;
+    padding: 20px 0px;
+    outline: none;
+    background-color: transparent;
+}
+[placeholder]:focus::-webkit-input-placeholder {
+    transition: text-indent 0.4s 0.4s ease; 
+    text-indent: -100%;
+    opacity: 1;
+ }

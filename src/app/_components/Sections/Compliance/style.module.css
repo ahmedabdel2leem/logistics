@@ -1,0 +1,12 @@
+.complianceBody{
+    background-image: linear-gradient(to bottom, #002B87 0%,rgba(0, 43, 135, 0.541) 50%,  rgba(11, 69, 170, 0.082) 100%), url('../../../../assets/compilceImg.png')
+
+    ;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}

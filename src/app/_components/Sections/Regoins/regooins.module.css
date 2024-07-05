@@ -1,0 +1,16 @@
+.regoins{
+  height: 160vh;
+  position: relative;
+  z-index: -1;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 120% 100%;
+  /* secret is here */
+  background-blend-mode: luminosity; 
+  background-image:
+  linear-gradient(90deg, #002B87 0%, rgba(0, 43, 135, 0.73) 25%, rgba(9, 63, 163, 0.1528) 53%, rgba(11, 68, 170, 0) 60%),
+  linear-gradient(140deg, #002B87 0%, rgba(0, 43, 135, 0.73) 25%, rgba(11, 68, 170, 0) 60%),
+  linear-gradient(140deg, #002B87 0%, rgba(0, 43, 135, 0.73) 30%, rgba(11, 68, 170, 0) 100%),
+  url('../../../../assets/services/Group\ 7.svg'),
+  linear-gradient(120deg, #002B87 0%, #0B44AA 100%)
+}
