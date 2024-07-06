@@ -42,7 +42,7 @@ function Services({ }: Props) {
 
                 <Carousel className='max-w-[90%] w-[90%] carousel '>
                     <CarouselContent className='space-x-4   '>
-                        {_images.map(({ img, title }: IImages) => <CarouselItem className=" relative basis-[28rem] group overflow-hidden rounded-xl p-0   bg-black h-[26rem] ">
+                        {_images.map(({ img, title }: IImages, index: number) => <CarouselItem key={index} className=" relative basis-[28rem] group overflow-hidden rounded-xl p-0   bg-black h-[26rem] ">
                             <div className='w-full h-full'>
                                 <Image
                                     src={img}

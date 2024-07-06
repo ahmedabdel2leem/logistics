@@ -1,4 +1,4 @@
-import shareIcon from '@/assets/share.svg'
+import { RiShareBoxLine } from "react-icons/ri";
 import Image from 'next/image'
 import roads from '@/assets/Frame 22.png'
 import style from './style.module.css'
@@ -19,31 +19,31 @@ function Compliance() {
                                 <div className='flex lg:flex-row flex-col lg:space-x-4 lg:space-y-0 space-y-4  '>
                                     <div className='complianceTags'>
                                         <div> Municipality</div>
-                                        <Image src={shareIcon} alt='share' />
+                                        <RiShareBoxLine />
                                     </div>
                                     <div className='complianceTags'>
                                         <div> Civil Defense</div>
-                                        <Image src={shareIcon} alt='share' />
+                                        <RiShareBoxLine />
                                     </div>
                                 </div>
                                 <div className='flex lg:flex-row flex-col  lg:space-x-4 lg:space-y-0 space-y-4'>
                                     <div className='complianceTags'>
                                         <div> SFDA</div>
-                                        <Image src={shareIcon} alt='share' />
+                                        <RiShareBoxLine />
                                     </div>
                                     <div className='complianceTags'>
                                         <div> ISO 9001:2015</div>
-                                        <Image src={shareIcon} alt='share' />
+                                        <RiShareBoxLine />
                                     </div>
                                 </div>
                                 <div className='flex lg:flex-row flex-col lg:space-x-4 lg:space-y-0 space-y-4'>
                                     <div className='complianceTags'>
                                         <div> ISO 14000:2015</div>
-                                        <Image src={shareIcon} alt='share' />
+                                        <RiShareBoxLine />
                                     </div>
                                     <div className='complianceTags'>
                                         <div> ISO 45001:2018</div>
-                                        <Image src={shareIcon} alt='share' />
+                                        <RiShareBoxLine />
                                     </div>
                                 </div>
                             </div>

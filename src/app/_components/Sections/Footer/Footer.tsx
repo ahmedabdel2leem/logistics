@@ -22,13 +22,13 @@ function Footer() {
                         <div className='space-y-5  text-center lg:text-start'>
                             <h3 className=' text-lg text-slate-400 font-light '>Company</h3>
                             <div className="sections text-white flex font-light text-sm space-x-4 tracking-widest flex-wrap leading-10">
-                                <Link className={` relative after:transition-all after:duration-150 after:absolute hover:after:w-1/2 after:w-0 after:h-0.5 after:top-full after:left-0 after:bg-secondryColor`} href={''} >About Us</Link>
-                                <Link href={''} >Services</Link>
-                                <Link href={''} >News</Link>
-                                <Link href={''} >Careers</Link>
-                                <Link href={''} >Contact Us</Link>
-                                <Link href={''} >Terms & Conditions</Link>
-                                <Link href={''} >Privacy Policy</Link>
+                                <Link className='nav-link' href={'#about'} >About Us</Link>
+                                <Link className='nav-link' href={'#services'} >Services</Link>
+                                <Link className='nav-link' href={'#news'} >News</Link>
+                                <Link className='nav-link' href={'#carers'} >Careers</Link>
+                                <Link className='nav-link' href={'#contactUs'} >Contact Us</Link>
+                                <Link className='nav-link' href={''} >Terms & Conditions</Link>
+                                <Link className='nav-link' href={''} >Privacy Policy</Link>
                             </div>
                         </div>
                         <div className="social flex lg:space-x-6 space-y-4 lg:space-y-0 items-center lg:justify-start justify-center flex-col lg:flex-row ">
