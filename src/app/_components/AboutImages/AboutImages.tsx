@@ -1,8 +1,8 @@
-import { IAboutImages } from "@/types"
+import { IImages } from "@/types"
 import Image from "next/image"
 
 type Props = {
-    item: IAboutImages
+    item: IImages
 }
 
 function AboutImages({ item }: Props) {

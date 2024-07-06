@@ -47,7 +47,7 @@ function News() {
                     </div>
                     <div className="newsData space-y-5 ">
                         {Array.from({ length: 3 }, (_, i) => i + 1).map((i) => {
-                            return <div className="newsItem rounded-xl  flex-col flex space-y-2 bg-[#F2F4F9] py-6 px-4">
+                            return <div key={i} className="newsItem rounded-xl  flex-col flex space-y-2 bg-[#F2F4F9] py-6 px-4">
                                 <div className="date text-sm text-blue-900 font-normal italic">09 May 2023</div>
                                 <div className="flex justify-between items-start">
                                     <div className="news text-xl font-medium">Lorem ipsum dolor sit amet consectetur lacus auctor amet varius in ...</div>
