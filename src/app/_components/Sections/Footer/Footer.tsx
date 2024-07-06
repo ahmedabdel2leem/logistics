@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import style from './footer.module.css'
-import logoWhite from '@/assets/Logo -  White.svg'
+import logoWhite from '@/assets/LogoWhite.svg'
 import img2 from '@/assets/Vector.png'
 import Link from 'next/link';
 import { FaFacebookF } from "react-icons/fa";

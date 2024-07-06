@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Header from './_components/Sections/Header/Header';
 import About from "./_components/Sections/About/About";
 import Services from "./_components/Sections/Services/Services";

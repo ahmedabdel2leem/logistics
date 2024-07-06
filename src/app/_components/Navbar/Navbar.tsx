@@ -1,11 +1,12 @@
 'use client'
 import Image from "next/image";
 import React, { useState } from "react";
-import logoWhite from "@/assets/Logo -  White.svg";
+import logoWhite from "@/assets/logoWhite.svg";
 import { IoMenuOutline } from "react-icons/io5";
 
 import "./navbar.css";
 function Navbar() {
+
     const [isVisiable, setIsVisiable] = useState<boolean>(false)
     return (
         <nav className="w-full z-[999] top-0 fixed left-0 pt-10 pb-10 flex justify-center  bg-gradient-to-b from-blue-950 bg-opacity-10">
@@ -19,7 +20,7 @@ function Navbar() {
                     </div>
                 </div>
 
-                <div className={` block text-center lg:flex w-4/4 lg:w-3/4 lg:bg-none ${isVisiable ? 'bg-gradient-to-t from-blue-950 bg-opacity-10' : 'hidden'}  `}>
+                <div className={` block text-center lg:flex w-4/4 lg:w-3/4 lg:bg-none  ${isVisiable ? 'bg-gradient-to-t from-blue-950 bg-opacity-10' : 'hidden'}  `}>
                     <div className="Navbar-links flex  lg:w-3/4 justify-center items-center text-white">
                         <ul className="lg:flex lg:space-x-9 space-y-9 lg:space-y-0">
                             <li className="nav-link">
