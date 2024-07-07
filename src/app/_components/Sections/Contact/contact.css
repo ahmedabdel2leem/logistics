@@ -9,4 +9,6 @@ input,textarea{
     transition: text-indent 0.4s 0.4s ease; 
     text-indent: -100%;
     opacity: 1;
+    outline: none;
+    
  }
