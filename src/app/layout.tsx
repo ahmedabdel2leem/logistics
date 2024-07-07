@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { nova } from "@/lib/customFont";
 
 
 
@@ -26,7 +27,7 @@ export default function RootLayout({
       </head>
       <html lang="en">
 
-        <body className={inter.className}>{children}</body>
+        <body className={nova.variable}>{children}</body>
       </html>
     </>
   );

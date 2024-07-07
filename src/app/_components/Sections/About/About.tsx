@@ -22,11 +22,12 @@ function About({ }: Props) {
 
     return (
         <>
-            <section id='about' className='aboutSection'>
+            <section id='about' className='aboutSection -mb-[150px]'>
 
 
                 <div className="aboutBg h-dvh w-full relative ">
                     <Banner
+
                         buttonText='Explore more'
                         button={true}
                         title='About Duroub Logistics'
@@ -34,10 +35,10 @@ function About({ }: Props) {
                         desc='Lorem ipsum dolor sit amet consectetur. Viverra justo odio platea parturient phasellus aliquam. Gravida amet leo quis nam nibh. Sed urna commodo urna bibendum nulla cras tellus. Sit lacus dictum porttitor tellus sed fames arcu velit. Quam leo proin ipsum molestie. Nibh magna porttitor ac ipsum blandit eget vestibulum.'
                     />
                 </div >
-                <div className='relative -top-[100px] flex justify-end '>
-                    <div className=' flex w-fit rounded-l-xl  overflow-hidden'>
+                <div className='relative -top-[150px] flex justify-end '>
+                    <div className='parent flex w-fit rounded-l-xl  overflow-hidden'>
                         {_images.map((el: IImages, index: number) => <>
-                            <AboutImages key={index} item={el} />
+                            <AboutImages key={index} item={el} index={index} />
                         </>
                         )}
                     </div>

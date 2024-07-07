@@ -18,6 +18,9 @@ const config = {
       },
     },
     extend: {
+      fontFamily: {
+        nova: ["var(--font-nova)"],
+      },
       animation: {
         fadeIn: 'fadeIn 2s ease-in-out infinite',
         slideIn: 'slideIn 1s ease-in-out',

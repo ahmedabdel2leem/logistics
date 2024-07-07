@@ -8,16 +8,17 @@ type Props = {
 function Button({ text, color }: Props) {
 
     return (
-        <Link href={""} className="text-xl flex flex-wrap group max-w-fit items-center">
-            <p className={`pr-3 text-${color}`} >
+        <Link href={""} className="text-lg font-medium flex flex-wrap group max-w-fit items-center">
+            <p className={`pr-1 text-${color} text-xl`} >
                 {text}
             </p>
             {/* <Arrow /> */}
             <div className="relative">
                 <Image
-                    className=" transform group-hover:translate-x-3 transition "
+                    className=" transform group-hover:translate-x-3 duration-500 transition "
                     src={Arrow}
                     alt="arrow"
+                    width={30}
 
                 />
 

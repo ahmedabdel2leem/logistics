@@ -1,0 +1,25 @@
+
+
+.Bannercenter{
+    top:40%;
+    transform: translate(0,-40%);
+    font-size: 3.45rem;
+    position: relative;
+    /* left: 10%; */
+    
+}
+.Bannercenter .BannerDesc{
+    max-width: 570px;
+}
+.Bannertop{
+    bottom: auto;
+    top: 0;
+}
+.Bannerbottom{
+    bottom:7rem;
+    
+}
+.Bannerbottom .bannerTitle{
+    font-size: 4.5rem;
+}
+     

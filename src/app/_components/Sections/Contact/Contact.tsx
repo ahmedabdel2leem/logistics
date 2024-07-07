@@ -9,10 +9,10 @@ function Contact() {
         <section id='contactUs' className="contact  relative -bottom-20 pt-20 z-10">
             <div className="contactUs flex   justify-center">
                 <div className="w-customWidth flex justify-between items-start flex-col lg:flex-row space-y-9 lg:space-y-0">
-                    <div className="contactDetails space-y-12">
-                        <div className="detailsHeader basis-2/5">
-                            <h3 className="text-6xl font-sans   mb-10 font-thin">Get in Touch</h3>
-                            <p className="text-thin  max-w-[500px]">Lorem ipsum dolor sit amet consectetur. Viverra justo odio platea <br /> parturient phasellus aliquam. Gravida amet leo quis nam nibh.</p>
+                    <div className="contactDetails space-y-12 basis-2/5">
+                        <div className="detailsHeader ">
+                            <h3 className="text-6xl mb-10 font-nova font-light">Get in Touch</h3>
+                            <p className="text-thin max-w-[500px]">Lorem ipsum dolor sit amet consectetur. Viverra justo odio platea <br /> parturient phasellus aliquam. Gravida amet leo quis nam nibh.</p>
                         </div>
                         <div className="contactInfo space-y-4">
                             <div className="flex space-x-9 ">

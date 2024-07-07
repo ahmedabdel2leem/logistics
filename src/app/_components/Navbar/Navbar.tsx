@@ -4,16 +4,16 @@ import React, { useState } from "react";
 import logoWhite from "@/assets/logoWhite.svg";
 import { IoMenuOutline } from "react-icons/io5";
 
-import "./navbar.css";
+
 function Navbar() {
 
     const [isVisiable, setIsVisiable] = useState<boolean>(false)
     return (
-        <nav className="w-full z-[999] top-0 fixed left-0 pt-10 pb-10 flex justify-center  bg-gradient-to-b from-blue-950 bg-opacity-10">
+        <nav className="w-full z-[999] top-0 fixed left-0 py-5 flex justify-center  bg-gradient-to-b from-black bg-opacity-10">
             <div className="Navbar lg:flex  w-customWidth justify-between items-center">
                 <div className="flex lg:w-1/4  justify-between">
-                    <div className="logo  w-1/2  ">
-                        <Image src={logoWhite} alt="logo" className="w-52" />
+                    <div className="logo  w-1/4 lg:w-60  ">
+                        <Image src={logoWhite} alt="logo" className="" />
                     </div>
                     <div className='w-1/2 flex justify-end lg:hidden cursor-pointer' onClick={() => setIsVisiable(!isVisiable)} >
                         <IoMenuOutline size={50} color="white" />
@@ -45,9 +45,9 @@ function Navbar() {
                     </div>
                     <div className="lang w-1/4 mx-auto lg:mx-0  p-4">
                         <div className="bg-red  flex lg:justify-end justify-center ">
-                            <div className=" flex w-fit   text-white rounded-full border border-secondryColor overflow-hidden ">
-                                <div className="en bg-secondryColor px-2">en</div>
-                                <div className="ar px-2">ع</div>
+                            <div className=" flex w-fit font-semibold   rounded-full border border-secondryColor overflow-hidden ">
+                                <div className=" relative en text-mainColor text-center  bg-secondryColor py-0.5 pl-2 pr-1 after:absolute after:bg-red after:z-50  after:border-t-[12px] after:border-t-transparent after:left-full after:top-0 after:h-full  after:border-b-[15px] after:border-b-transparent  after:border-l-[12px] after:border-l-secondryColor">En</div>
+                                <div className="px-2.5 ml-2 text-center text-white py-0.5 ">ع</div>
                             </div>
                         </div>
                     </div>

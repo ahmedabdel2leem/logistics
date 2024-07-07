@@ -5,7 +5,7 @@ type Props = {
 function connecteingShape({ }: Props) {
 
     return (
-        <div className="absolute bottom-14 right-[10%] w-1/3 top-[55%] ">
+        <div className="absolute bottom-14 right-[15%] w-[28%] top-[55%] ">
             <svg viewBox="0 0 583 508" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g opacity="0.5">
                     <path d="M532 195.001C362 97.5002 286 72.5 127.11 54.3353" stroke="white" strokeWidth="0.5" strokeLinecap="round" strokeDasharray="20 8" />

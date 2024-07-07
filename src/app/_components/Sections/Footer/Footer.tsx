@@ -12,13 +12,13 @@ function Footer() {
     return (
         <footer className={`${style.footer} `}>
             <div className="relative">
-                <div className={`${style.about}  w-[90%] py-24 mx-auto flex items-center lg:items-end lg:space-x-60 flex-col lg:flex-row
+                <div className={`${style.about}  w-[90%] py-24 mx-auto flex items-center lg:items-end  flex-col lg:flex-row
             `}>
-                    <div className="logo space-y-7 ">
+                    <div className="logo space-y-7 basis-2/5 ">
                         <Image src={logoWhite} alt='logo white' />
                         <p className='font-thin text-white'>Lorem ipsum dolor sit amet consectetur. Quis <br /> suspendisse congue id ac mi pretium.</p>
                     </div>
-                    <div className="links space-y-9 mt-10 lg-mt-0">
+                    <div className="links space-y-9 mt-10 lg-mt-0 basis-3/5">
                         <div className='space-y-5  text-center lg:text-start'>
                             <h3 className=' text-lg text-slate-400 font-light '>Company</h3>
                             <div className="sections text-white flex font-light text-sm space-x-4 tracking-widest flex-wrap leading-10">
@@ -27,8 +27,8 @@ function Footer() {
                                 <Link className='nav-link' href={'#news'} >News</Link>
                                 <Link className='nav-link' href={'#carers'} >Careers</Link>
                                 <Link className='nav-link' href={'#contactUs'} >Contact Us</Link>
-                                <Link className='nav-link' href={''} >Terms & Conditions</Link>
-                                <Link className='nav-link' href={''} >Privacy Policy</Link>
+                                <Link className='nav-link' href={'#'} >Terms & Conditions</Link>
+                                <Link className='nav-link' href={'#'} >Privacy Policy</Link>
                             </div>
                         </div>
                         <div className="social flex lg:space-x-6 space-y-4 lg:space-y-0 items-center lg:justify-start justify-center flex-col lg:flex-row ">

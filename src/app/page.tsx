@@ -7,7 +7,6 @@ import Compliance from "./_components/Sections/Compliance/Compliance";
 import Contact from './_components/Sections/Contact/Contact';
 import Footer from "./_components/Sections/Footer/Footer";
 import Navbar from "./_components/Navbar/Navbar";
-
 export default function Home() {
   return (
     <>
